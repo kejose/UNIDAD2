@@ -112,7 +112,8 @@ una restricción en la tabla previniendo filas idénticas en el índice
 ---
 #### Seguridad
 
-![[Pasted image 20260130125053.png]]
+Captura de pantalla 2026-01-30 125025.png
+
 #### Medidas de seguridad en bases de datos
 
 -  Físicas: controlar el acceso al equipo. Tarjetas de acceso, etc.
