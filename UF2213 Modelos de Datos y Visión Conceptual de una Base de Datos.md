@@ -58,11 +58,12 @@ El procesador de consultas en un SGBD se encarga de ejecutar las consultas reali
 - **Servicios para mejorar la independencia de los datos,** Permitir que se mantenga la independencia entre los programas y la estructura de la base de datos. La independencia de datos se alcanza mediante las vistas o subesquemas. La independencia de datos física es más fácil de alcanzar, de hecho hay varios tipos de cambios que se pueden realizar sobre la estructura física de la base de datos sin afectar a las vistas. Sin embargo, lograr una completa independencia de datos lógica es más difícil. Añadir una nueva entidad, un atributo o una relación puede ser sencillo, pero no es tan sencillo eliminarlos.
 
 - **Servicios de utilidad,** Un SGBD debe proporcionar una serie de herramientas que permitan administrar la base de datos de modo efectivo. Algunas herramientas trabajan a nivel externo, por lo que habrán sido producidas por el administrador de la base de datos. Las herramientas que trabajan a nivel interno deben ser proporcionadas por el distribuidor del SGBD. Algunas de ellas son:
--- Herramientas para importar y exportar datos.
--- Herramientas para monitorizar el uso y el funcionamiento de la base de datos.
--- Programas de análisis estadístico para examinar las prestaciones o las estadísticas de utilización.
--- Herramientas para reorganización de índices.
-- **Herramientas para aprovechar el espacio dejado en el almacenamiento físico** por los registros borrados y que consoliden el espacio liberado para reutilizarlo cuando sea necesario.
+
+-  Herramientas para importar y exportar datos.
+-  Herramientas para monitorizar el uso y el funcionamiento de la base de datos.
+-  Programas de análisis estadístico para examinar las prestaciones o las estadísticas de utilización.
+-  Herramientas para reorganización de índices.
+-  **Herramientas para aprovechar el espacio dejado en el almacenamiento físico** por los registros borrados y que consoliden el espacio liberado para reutilizarlo cuando sea necesario.
 
 ### Terminología de SGDB
 
