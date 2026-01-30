@@ -112,7 +112,7 @@ una restricción en la tabla previniendo filas idénticas en el índice
 ---
 #### Seguridad
 
-(https://github.com/kejose/UNIDAD2/blob/main/Captura%20de%20pantalla%202026-01-30%20125025.png)
+![carpeta](https://github.com/kejose/UNIDAD2/blob/main/Captura%20de%20pantalla%202026-01-30%20125025.png)
 
 #### Medidas de seguridad en bases de datos
 
