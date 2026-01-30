@@ -43,15 +43,17 @@ El procesador de consultas en un SGBD se encarga de ejecutar las consultas reali
 
 - **Catálogo accesible por el usuario**: diccionario de datos con descripciones accesibles por los usuarios.
 
-- **Soporte de transacciones**: garantiza que todas las acciones de una transacción se realicen o ninguna.
+- **Soporte de transacciones,** debe proporcionar un mecanismo que garantice que todas las actualizaciones correspondientes a una determinada transacción se realicen, o que no se realice ninguna.
+Una transacción es un conjunto de acciones que cambian el contenido de la base de datos.
 
-- **Control de concurrencia**: asegura actualizaciones correctas cuando varios usuarios acceden simultáneamente.
+- Servicios de control de concurrencia, proporciona un mecanismo que asegure que la base de datos se actualice correctamente cuando varios usuarios la están actualizando concurrentemente. Uno de los principales objetivos de los SGBD es el permitir que varios usuarios tengan acceso concurrente a los datos que comparten. El acceso concurrente es relativamente fácil de gestionar si todos los usuarios se dedican a leer datos, ya que no pueden interferir unos con otros.
+Sin embargo, cuando dos o más usuarios están accediendo a la base de datos y al menos uno de ellos está actualizando datos, pueden interferir de modo que se produzcan inconsistencias en la base de datos. El SGBD se debe encargar de que estas interferencias no se produzcan en el acceso simultáneo.
 
-- **Servicios de recuperación**: permite restaurar la base de datos ante fallos.
-
-- **Servicios de autorización**: protege contra accesos no autorizados.
-
-- **Tramitación de datos**: integración con software de comunicación para terminales locales o remotos.
+- **Servicios de recuperación,** mecanismo capaz de recuperar la base de datos en caso de que ocurra algún suceso que la dañe.
+  
+- **Servicios de autorización,** Garantizar que sólo los usuarios autorizados pueden acceder a la base de datos. La protección debe ser contra accesos no autorizados, tanto intencionados como accidentales.
+  
+- **Soporte para la tramitación de datos,** Un SGBD debe ser capaz de integrarse con algún software de comunicación. Muchos usuarios acceden a la base de datos desde terminales. En ocasiones estos terminales se encuentran conectados directamente a la máquina sobre la que funciona el SGBD. En otras ocasiones los terminales están en lugares remotos, por lo que la comunicación con la máquina que alberga al SGBD se debe hacer a través de una red. En cualquiera de los dos casos, el SGBD recibe peticiones en forma de mensajes y responde de modo similar. Todas estas transmisiones de mensajes las maneja el gestor de comunicaciones de datos. Aunque este gestor no forma parte del SGBD, es necesario que el SGBD se pueda integrar con él para que el sistema sea comercialmente viable.
 
 - **Servicios de integridad,** Son los medios necesarios para garantizar que tanto los datos de la base de datos, como los cambios que se realizan sobre estos datos, sigan ciertas reglas. Se puede considerar como otro modo de proteger la base de datos, pero además de tener que ver con la seguridad. La integridad se ocupa de la calidad de los datos. Normalmente se expresa mediante restricciones, que son una serie de reglas que la base de datos no puede violar.
 
