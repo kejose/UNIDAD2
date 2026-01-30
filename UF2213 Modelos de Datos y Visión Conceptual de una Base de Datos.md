@@ -71,39 +71,61 @@ Garantizan que los datos y sus modificaciones respeten reglas definidas. Se expr
 
 ### Terminología de SGDB
 
-#### Campo (Field)
-- Elemento dentro de una tabla con tipo de dato, longitud, decimales, etc.
-#### Consulta (Query)
-- Instrucción para interactuar con los datos, generalmente de lectura.
-#### Tabla (Table)
-- Objeto contenedor de información estructurada.
-#### Vista (View)
-- Consulta residente que se ejecuta como si fuera una tabla.
-#### Gestión de índices
-- Estructura que mejora la velocidad de acceso a registros. Funciona como el índice de un libro, relacionando elementos con su posición.
+- **Campo - Field**
 
-Los índices pueden ser creados con una o más columnas, y pueden ser únicos o no únicos. Un índice único previene filas idénticas.
+  Identifica solo un elemento dentro de la tabla con características específicas
+como tipo de datos, longitud, número de decimales, etc.
+
+
+- **Consulta - Query**
+
+
+  Identifica una instrucción propia del motor de base de datos que interactúa con los datos 
+almacenados en esta. Generalmente son instrucciones de lectura, aun que muchas veces se utiliza el término Query para cualquier instrucción (escritura, procesamiento o administración).
+
+
+- **Tabla - Table**
+  Identifica un objeto contenedor de información estructurada, esta estructura
+se repite en todos los registros en ella.
+
+
+- **Vista - View**
+  Identifica una consulta residente en el servidor que puede ejecutarse con
+una instrucción simple como si fuera otra tabla de la base de datos.
+
+
+- **Gestión de índices**
+
+  El índice de una base de datos es una estructura de datos que mejora la velocidad de las 
+operaciones, permitiendo un rápido acceso a los registros de una tabla en una base de datos. Al aumentar drásticamente la velocidad de acceso, se suelen usar sobre aquellos campos sobre los cuales se hacen frecuentes búsquedas.
+
+El índice tiene un funcionamiento similar al índice de un libro, guardando parejas de 
+elementos: el elemento que se desea indexar y su posición en la base de datos. Para buscar un elemento que esté indexado, sólo hay que buscar en el índice dicho elemento para, una vez encontrado, devolver el registro que se encuentre en la posición marcada por el índice.
+
+Los índices pueden ser creados usando una o más columnas, proporcionando la base 
+tanto para búsquedas rápidas al azar como de un ordenado acceso a
+registros eficiente.
+
+  Los índices pueden ser definidos como únicos o no únicos. Un índice único actúa como 
+una restricción en la tabla previniendo filas idénticas en el índice
 
 ---
-### Seguridad
-### Medidas de seguridad en bases de datos
+#### Seguridad
 
-- **Físicas**: control de acceso al equipo (tarjetas, etc.).
-- **Personales**: acceso solo a personal autorizado.
-- **Sistema Operativo**: seguridad a nivel de SO.
-- **SGBD**: herramientas como perfiles, vistas, restricciones.
+![[Pasted image 20260130125053.png]]
+#### Medidas de seguridad en bases de datos
 
-Un BDMS (Sistema Manejador de Bases de Datos) es un software diseñado para gestionar bases de datos. Permite crear, modificar, eliminar y consultar datos de forma eficiente y segura.
+-  Físicas: controlar el acceso al equipo. Tarjetas de acceso, etc.
+-  Personal: acceso sólo del personal autorizado. Evitar sobornos, etc.
+-  SO: seguridad a nivel de SO
+-  SGBD: uso herramientas de seguridad que proporcione el SGBD. Perfiles de usuario, vistas, restricciones de uso de vistas, etc.
 
-Ofrece herramientas para:
 
-- Crear y modificar tablas.
-- Definir relaciones.
-- Controlar acceso.
-- Ejecutar consultas.
-- Generar informes y estadísticas.
+   Un BDMS es un programa de software diseñado para gestionar y
+administrar bases de datos se conoce como un Sistema Manejador de Bases de Datos. Su propósito principal es permitir a los usuarios crear, modificar y eliminar bases de datos, así como también acceder a los datos almacenados en ellas de forma eficiente y segura.
 
-Ejemplos: MySQL, Oracle, SQL Server, PostgreSQL, MongoDB.
+   Estos sistemas ofrecen una amplia gama de herramientas y funcionalidades para la 
+gestión de bases de datos, como la creación y modificación de tablas, la definición de relaciones entre ellas, el control de acceso a los datos, la ejecución de consultas y la generación de informes y estadísticas. Existen diferentes tipos de BDMS, desde los más sencillos y orientados a usuarios sin experiencia en programación hasta los más complejos y diseñados para entornos empresariales de alto rendimiento. Algunos ejemplos comunes de BDMS son MySQL, Oracie, Microsoft SQL Server, PostgreSQL y MongoDB.
 
 ## Funciones de un SGBD
 
