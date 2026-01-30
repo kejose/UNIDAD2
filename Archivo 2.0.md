@@ -99,7 +99,8 @@
 
 **Ejemplos de entidades:**
 - Cliente, Ventas, Producto.
-![CARPETA](https://github.com/kejose/UNIDAD2/blob/main/Captura%20de%20pantalla%202026-01-30%20130631.png)
+
+  ![CARPETA](https://github.com/kejose/UNIDAD2/blob/main/Captura%20de%20pantalla%202026-01-30%20130631.png)
 ### 4.4 Modelo Relacional Extendido
 - Añade entidades, atributos y relaciones avanzadas.
 - Soporta herencia, subtipos y supertipos.
