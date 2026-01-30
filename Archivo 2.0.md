@@ -28,7 +28,7 @@
 - **Importancia**: Garantiza la continuidad del negocio ante eventos adversos.
 
 ---
-![[Pasted image 20260130125910.png]]
+![CARPETA]https://github.com/kejose/UNIDAD2/blob/main/Captura%20de%20pantalla%202026-01-30%20125627.png
 ## Replicación de Bases de Datos
 
 - **Concepto**: Copia y sincronización entre BD principal y secundarias.
