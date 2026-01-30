@@ -126,6 +126,7 @@ administrar bases de datos se conoce como un Sistema Manejador de Bases de Datos
    Estos sistemas ofrecen una amplia gama de herramientas y funcionalidades para la 
 gestión de bases de datos, como la creación y modificación de tablas, la definición de relaciones entre ellas, el control de acceso a los datos, la ejecución de consultas y la generación de informes y estadísticas. Existen diferentes tipos de BDMS, desde los más sencillos y orientados a usuarios sin experiencia en programación hasta los más complejos y diseñados para entornos empresariales de alto rendimiento. Algunos ejemplos comunes de BDMS son MySQL, Oracie, Microsoft SQL Server, PostgreSQL y MongoDB.
 
+
 ## Funciones de un SGBD
 
 - **Identificación y autorización de usuarios**:
@@ -153,7 +154,7 @@ gestión de bases de datos, como la creación y modificación de tablas, la defi
 - **Importancia**: Garantiza la continuidad del negocio ante eventos adversos.
 
 ---
-
+![CARPETA](https://github.com/kejose/UNIDAD2/blob/main/Captura%20de%20pantalla%202026-01-30%20125627.png)
 ## Replicación de Bases de Datos
 
 - **Concepto**: Copia y sincronización entre BD principal y secundarias.
@@ -208,12 +209,14 @@ gestión de bases de datos, como la creación y modificación de tablas, la defi
 - Estructura en árbol.
 - Relación padre–hijo única.
 - Ejemplo: organigramas empresariales.
-
+  
+![CARPETA](https://github.com/kejose/UNIDAD2/blob/main/Captura%20de%20pantalla%202026-01-30%20130323.png)
 ### 4.2 Modelo en Red
 - Evolución del jerárquico.
 - Un nodo puede tener múltiples padres.
 - Representación mediante grafos.
-
+  
+![CARPETA](https://github.com/kejose/UNIDAD2/blob/main/Captura%20de%20pantalla%202026-01-30%20130558.png)
 ### 4.3 Modelo Relacional
 - Datos en tablas con claves únicas.
 - Relaciones mediante claves foráneas.
@@ -223,13 +226,17 @@ gestión de bases de datos, como la creación y modificación de tablas, la defi
 **Ejemplos de entidades:**
 - Cliente, Ventas, Producto.
 
+  ![CARPETA](https://github.com/kejose/UNIDAD2/blob/main/Captura%20de%20pantalla%202026-01-30%20130631.png)
 ### 4.4 Modelo Relacional Extendido
 - Añade entidades, atributos y relaciones avanzadas.
 - Soporta herencia, subtipos y supertipos.
 - Mayor precisión en el modelado.
-
+![CARPETA](https://github.com/kejose/UNIDAD2/blob/main/Captura%20de%20pantalla%202026-01-30%20130724.png)
 ### 4.5 Modelo Orientado a Objetos
 - Datos representados como objetos.
 - Propiedades, métodos, clases e herencia.
 - Encapsulamiento.
 - Aplicaciones: videojuegos, SIG, simulaciones.
+![CARPETA](https://github.com/kejose/UNIDAD2/blob/main/Captura%20de%20pantalla%202026-01-30%20130806.png)
+
+---
