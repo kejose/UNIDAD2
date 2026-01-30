@@ -28,7 +28,7 @@
 - **Importancia**: Garantiza la continuidad del negocio ante eventos adversos.
 
 ---
-
+![[Pasted image 20260130125910.png]]
 ## Replicación de Bases de Datos
 
 - **Concepto**: Copia y sincronización entre BD principal y secundarias.
@@ -83,12 +83,12 @@
 - Estructura en árbol.
 - Relación padre–hijo única.
 - Ejemplo: organigramas empresariales.
-
+- ![[Pasted image 20260130130341.png]]
 ### 4.2 Modelo en Red
 - Evolución del jerárquico.
 - Un nodo puede tener múltiples padres.
 - Representación mediante grafos.
-
+![[Pasted image 20260130130610.png]]
 ### 4.3 Modelo Relacional
 - Datos en tablas con claves únicas.
 - Relaciones mediante claves foráneas.
@@ -97,17 +97,18 @@
 
 **Ejemplos de entidades:**
 - Cliente, Ventas, Producto.
-
+![[Pasted image 20260130130655.png]]
 ### 4.4 Modelo Relacional Extendido
 - Añade entidades, atributos y relaciones avanzadas.
 - Soporta herencia, subtipos y supertipos.
 - Mayor precisión en el modelado.
-
+![[Pasted image 20260130130741.png]]
 ### 4.5 Modelo Orientado a Objetos
 - Datos representados como objetos.
 - Propiedades, métodos, clases e herencia.
 - Encapsulamiento.
 - Aplicaciones: videojuegos, SIG, simulaciones.
+![[Pasted image 20260130130820.png]]
 
 ---
 
