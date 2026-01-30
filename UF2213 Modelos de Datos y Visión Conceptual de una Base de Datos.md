@@ -59,11 +59,11 @@ El procesador de consultas en un SGBD se encarga de ejecutar las consultas reali
 
 - **Servicios de utilidad,** Un SGBD debe proporcionar una serie de herramientas que permitan administrar la base de datos de modo efectivo. Algunas herramientas trabajan a nivel externo, por lo que habrán sido producidas por el administrador de la base de datos. Las herramientas que trabajan a nivel interno deben ser proporcionadas por el distribuidor del SGBD. Algunas de ellas son:
 
--  Herramientas para importar y exportar datos.
--  Herramientas para monitorizar el uso y el funcionamiento de la base de datos.
--  Programas de análisis estadístico para examinar las prestaciones o las estadísticas de utilización.
--  Herramientas para reorganización de índices.
--  **Herramientas para aprovechar el espacio dejado en el almacenamiento físico** por los registros borrados y que consoliden el espacio liberado para reutilizarlo cuando sea necesario.
+ -Herramientas para importar y exportar datos.
+ -Herramientas para monitorizar el uso y el funcionamiento de la base de datos.
+ -Programas de análisis estadístico para examinar las prestaciones o las estadísticas de utilización.
+ -Herramientas para reorganización de índices.
+ -Herramientas para aprovechar el espacio dejado en el almacenamiento físico** por los registros borrados y que consoliden el espacio liberado para reutilizarlo cuando sea necesario.
 
 ### Terminología de SGDB
 
