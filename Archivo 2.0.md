@@ -83,12 +83,12 @@
 - Estructura en árbol.
 - Relación padre–hijo única.
 - Ejemplo: organigramas empresariales.
-- ![[Pasted image 20260130130341.png]]
+  ![CARPETA](https://github.com/kejose/UNIDAD2/blob/main/Captura%20de%20pantalla%202026-01-30%20130323.png)
 ### 4.2 Modelo en Red
 - Evolución del jerárquico.
 - Un nodo puede tener múltiples padres.
 - Representación mediante grafos.
-![[Pasted image 20260130130610.png]]
+  ![CARPETA](https://github.com/kejose/UNIDAD2/blob/main/Captura%20de%20pantalla%202026-01-30%20130558.png)
 ### 4.3 Modelo Relacional
 - Datos en tablas con claves únicas.
 - Relaciones mediante claves foráneas.
@@ -97,18 +97,18 @@
 
 **Ejemplos de entidades:**
 - Cliente, Ventas, Producto.
-![[Pasted image 20260130130655.png]]
+![CARPETA](https://github.com/kejose/UNIDAD2/blob/main/Captura%20de%20pantalla%202026-01-30%20130631.png)
 ### 4.4 Modelo Relacional Extendido
 - Añade entidades, atributos y relaciones avanzadas.
 - Soporta herencia, subtipos y supertipos.
 - Mayor precisión en el modelado.
-![[Pasted image 20260130130741.png]]
+  ![CARPETA](https://github.com/kejose/UNIDAD2/blob/main/Captura%20de%20pantalla%202026-01-30%20130724.png)
 ### 4.5 Modelo Orientado a Objetos
 - Datos representados como objetos.
 - Propiedades, métodos, clases e herencia.
 - Encapsulamiento.
 - Aplicaciones: videojuegos, SIG, simulaciones.
-![[Pasted image 20260130130820.png]]
+  ![CARPETA](https://github.com/kejose/UNIDAD2/blob/main/Captura%20de%20pantalla%202026-01-30%20130806.png)
 
 ---
 
