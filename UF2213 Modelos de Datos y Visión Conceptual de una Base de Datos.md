@@ -1,4 +1,4 @@
-hello
+
 - **Gestor transaccional:** Controla y gestiona las transacciones. Se asegura de que todas las operaciones se completen correctamente o se deshagan si ocurre un error. Utiliza un registro de transacciones para mantener el estado de las operaciones. Garantiza concurrencia y consistencia.
 
 - **Gestor de memoria intermedia:** Administra la memoria temporal (caché) para reducir operaciones de entrada/salida y mejorar el rendimiento. Usa algoritmos para decidir qué datos almacenar en caché y cuáles eliminar. Garantiza la integridad de los datos en caché y su correcta escritura en disco.
