@@ -111,4 +111,13 @@
 ![[Pasted image 20260130130820.png]]
 
 ---
+<div align="center">
+  <iframe 
+    width="560" 
+    height="315"
+    src="https://www.youtube.com/embed/7XwNmIK_L4o"
+    frameborder="0" 
+    allowfullscreen>
+  </iframe>
+</div>
 
